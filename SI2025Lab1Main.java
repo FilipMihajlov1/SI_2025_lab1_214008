@@ -65,6 +65,12 @@ class TaskManager {
     // 1. Remove a task by name
     public void removeTask(String name) {
         // TODO: Implement removal logic
+        for(int i = 0; i < tasks.size(); i++) {
+            if(tasks.get(i).getName().equals(name)) {
+                tasks.remove(i);
+                return;
+            }
+        }
     }
 
     // 2. Find all completed tasks
@@ -110,11 +116,11 @@ class TaskManager {
     // 8. Mark a task as completed by name
     public void markTaskCompleted(String name) {
         // TODO: Implement completion logic
-        for(Task task : tasks) {
+        /*for(Task task : tasks) {
             if(task.getName().equals(name)) {
                 task.complete();
             }
-        }
+        }*/
     }
 
     // 9. Mark all tasks in a category as completed
