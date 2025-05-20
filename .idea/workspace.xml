@@ -5,7 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6f5d9298-223d-4cc1-b777-ac35a5f3d0bf" name="Changes" comment="">
+ 7-count-tasks-per-category
+      <change afterPath="$PROJECT_DIR$/.idea/SI2025Lab1Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+
       <change beforePath="$PROJECT_DIR$/SI2025Lab1Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/SI2025Lab1Main.java" afterDir="false" />
+ master
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,9 +20,15 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+ 7-count-tasks-per-category
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 2
+}</component>
+=======
   <component name="ProjectColorInfo"><![CDATA[{
   "associatedIndex": 2
 }]]></component>
+ master
   <component name="ProjectId" id="2xL4mZTCckWUiOLuHOAR5k3FxAT" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -34,6 +45,13 @@
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
     "vue.rearranger.settings.migration": "true"
+7-count-tasks-per-category
+  },
+  "keyToStringList": {
+    "com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File": [
+      "JAVA"
+    ]
+master
   }
 }]]></component>
   <component name="SharedIndexes">
@@ -52,7 +70,11 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1747704179951</updated>
+ 7-count-tasks-per-category
+      <workItem from="1747704180983" duration="4169000" />
+
       <workItem from="1747704180983" duration="2797000" />
+ master
     </task>
     <servers />
   </component>
