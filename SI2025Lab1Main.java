@@ -104,6 +104,13 @@ class TaskManager {
     // 8. Mark a task as completed by name
     public void markTaskCompleted(String name) {
         // TODO: Implement completion logic
+        Map<String, Integer> categoryCount = new HashMap<>();
+
+        for(Task task : tasks) {
+            String category = task.getCategory();
+            categoryCount.put(category,categoryCount.getOrDefault(category,0) + 1);
+        }
+        return categoryCount;
     }
 
     // 9. Mark all tasks in a category as completed
