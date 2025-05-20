@@ -4,20 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6f5d9298-223d-4cc1-b777-ac35a5f3d0bf" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/SI2025Lab1Main.java" afterDir="false" />
-    </list>
+    <list default="true" id="6f5d9298-223d-4cc1-b777-ac35a5f3d0bf" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
-  </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="Class" />
-      </list>
-    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -34,13 +25,18 @@
   "keyToString": {
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/mihaj/SI_2025_lab1_214008",
+    "last_opened_file_path": "C:/Users/mihaj/SI_2025_lab1_214008/SI2025Lab1Main.java",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
     "vue.rearranger.settings.migration": "true"
+  },
+  "keyToStringList": {
+    "com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File": [
+      "JAVA"
+    ]
   }
 }]]></component>
   <component name="SharedIndexes">
@@ -59,7 +55,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1747704179951</updated>
-      <workItem from="1747704180983" duration="4859000" />
+      <workItem from="1747704180983" duration="4169000" />
     </task>
     <servers />
   </component>
