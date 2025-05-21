@@ -1,0 +1,113 @@
+
+mihaj@Filip MINGW64 ~
+$ cd SI_2025_lab1_214008
+
+mihaj@Filip MINGW64 ~/SI_2025_lab1_214008 (7-count-tasks-per-category)
+$ git checkout 8-mark-a-task-as-completed-by-name
+error: Your local changes to the following files would be overwritten by checkout:
+        .idea/workspace.xml
+Please commit your changes or stash them before you switch branches.
+Aborting
+
+mihaj@Filip MINGW64 ~/SI_2025_lab1_214008 (7-count-tasks-per-category)
+$ git add .
+
+mihaj@Filip MINGW64 ~/SI_2025_lab1_214008 (7-count-tasks-per-category)
+$ git commit -m "Empty commit"
+[7-count-tasks-per-category f7169c2] Empty commit
+ 1 file changed, 1 insertion(+), 4 deletions(-)
+
+mihaj@Filip MINGW64 ~/SI_2025_lab1_214008 (7-count-tasks-per-category)
+$ git push origin 7-count-tasks-per-category
+To https://github.com/FilipMihajlov1/SI_2025_lab1_214008
+ ! [rejected]        7-count-tasks-per-category -> 7-count-tasks-per-category (fetch first)
+error: failed to push some refs to 'https://github.com/FilipMihajlov1/SI_2025_lab1_214008'
+hint: Updates were rejected because the remote contains work that you do not
+hint: have locally. This is usually caused by another repository pushing to
+hint: the same ref. If you want to integrate the remote changes, use
+hint: 'git pull' before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+
+mihaj@Filip MINGW64 ~/SI_2025_lab1_214008 (7-count-tasks-per-category)
+$ git pull origin 7-count-tasks-per-category
+remote: Enumerating objects: 19, done.
+remote: Counting objects: 100% (19/19), done.
+remote: Compressing objects: 100% (11/11), done.
+remote: Total 11 (delta 6), reused 0 (delta 0), pack-reused 0 (from 0)
+Unpacking objects: 100% (11/11), 3.22 KiB | 219.00 KiB/s, done.
+From https://github.com/FilipMihajlov1/SI_2025_lab1_214008
+ * branch            7-count-tasks-per-category -> FETCH_HEAD
+   324eb04..52164ad  7-count-tasks-per-category -> origin/7-count-tasks-per-category
+Auto-merging .idea/workspace.xml
+CONFLICT (content): Merge conflict in .idea/workspace.xml
+Automatic merge failed; fix conflicts and then commit the result.
+
+mihaj@Filip MINGW64 ~/SI_2025_lab1_214008 (7-count-tasks-per-category|MERGING)
+$ git stash
+.idea/workspace.xml: needs merge
+error: could not write index
+
+mihaj@Filip MINGW64 ~/SI_2025_lab1_214008 (7-count-tasks-per-category|MERGING)
+$ git merge --abort
+
+mihaj@Filip MINGW64 ~/SI_2025_lab1_214008 (7-count-tasks-per-category)
+$ git checkout 8-mark-a-task-as-completed-by-name
+Switched to branch '8-mark-a-task-as-completed-by-name'
+Your branch is up to date with 'origin/8-mark-a-task-as-completed-by-name'.
+
+mihaj@Filip MINGW64 ~/SI_2025_lab1_214008 (8-mark-a-task-as-completed-by-name)
+$ git add .
+warning: in the working copy of '.idea/workspace.xml', LF will be replaced by CRLF the next time Git touches it
+
+mihaj@Filip MINGW64 ~/SI_2025_lab1_214008 (8-mark-a-task-as-completed-by-name)
+$ git commit -m "Mark a task as completed by name"
+[8-mark-a-task-as-completed-by-name 361032c] Mark a task as completed by name
+ 1 file changed, 8 insertions(+), 12 deletions(-)
+
+mihaj@Filip MINGW64 ~/SI_2025_lab1_214008 (8-mark-a-task-as-completed-by-name)
+$ git push origin 8-mark-a-task-as-completed-by-name
+To https://github.com/FilipMihajlov1/SI_2025_lab1_214008
+ ! [rejected]        8-mark-a-task-as-completed-by-name -> 8-mark-a-task-as-completed-by-name (fetch first)
+error: failed to push some refs to 'https://github.com/FilipMihajlov1/SI_2025_lab1_214008'
+hint: Updates were rejected because the remote contains work that you do not
+hint: have locally. This is usually caused by another repository pushing to
+hint: the same ref. If you want to integrate the remote changes, use
+hint: 'git pull' before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+
+mihaj@Filip MINGW64 ~/SI_2025_lab1_214008 (8-mark-a-task-as-completed-by-name)
+$ git push origin 8-mark-a-task-as-completed-by-name --force
+Enumerating objects: 15, done.
+Counting objects: 100% (15/15), done.
+Delta compression using up to 20 threads
+Compressing objects: 100% (12/12), done.
+Writing objects: 100% (15/15), 4.95 KiB | 4.95 MiB/s, done.
+Total 15 (delta 2), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (2/2), done.
+To https://github.com/FilipMihajlov1/SI_2025_lab1_214008
+ + 6237e1a...361032c 8-mark-a-task-as-completed-by-name -> 8-mark-a-task-as-completed-by-name (forced update)
+
+mihaj@Filip MINGW64 ~/SI_2025_lab1_214008 (8-mark-a-task-as-completed-by-name)
+$ git log --oneline --graph --all
+* 361032c (HEAD -> 8-mark-a-task-as-completed-by-name, origin/8-mark-a-task-as-completed-by-name) Mark a task as completed by name
+* cbe2270 Mark a task as completed by name
+* a8e3895 (origin/main, origin/HEAD) Delete README.md
+* 95cee38 Initial commit
+* f7169c2 (7-count-tasks-per-category) Empty commit
+| * 52164ad (origin/7-count-tasks-per-category) Merge branch 'master' into 7-count-tasks-per-category
+|/|
+| * 21125e6 Update SI2025Lab1Main.java
+| * 6aba8be Update SI2025Lab1Main.java
+| * 0da3cc9 (origin/master, master) Remove task by name
+| * 51c8a67 Functions
+* |   324eb04 Count tasks per category
+|\ \
+| * \   d45ec15 Count tasks per category
+| |\ \
+| | * | 6f5ea95 Delete .idea directory
+| | * | 2030776 Delete SI2025Lab1Main.java
+* | | | 081d7ec Count tasks per category
+|/ / /
+* / / 28f93a3 Count tasks per category commit
+|/ /
+:
