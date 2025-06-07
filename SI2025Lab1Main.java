@@ -105,6 +105,7 @@ class TaskManager {
             categoryCount.put(category,categoryCount.getOrDefault(category,0) + 1);
         }
         return categoryCount;
+        return new HashMap<>();
     }
 
     // 8. Mark a task as completed by name
@@ -115,7 +116,6 @@ class TaskManager {
                 task.complete();
             }
         }
-    }
 
     // 9. Mark all tasks in a category as completed
     public void markCategoryCompleted(String category) {
@@ -134,4 +134,3 @@ public class SI2025Lab1Main {
 
         manager.printTasks();
     }
-}
