@@ -72,7 +72,6 @@ class TaskManager {
                 return;
             }
         }
-
     }
 
     // 2. Find all completed tasks
@@ -138,3 +137,4 @@ public class SI2025Lab1Main {
 
         manager.printTasks();
     }
+
