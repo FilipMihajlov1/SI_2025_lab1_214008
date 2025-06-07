@@ -66,14 +66,12 @@ class TaskManager {
     public void removeTask(String name) {
         // TODO: Implement removal logic
 
-        for (int i = 0; i < tasks.size(); i++) {
-            if (tasks.get(i).getName().equalsIgnoreCase(name)) {
+        for(int i = 0; i < tasks.size(); i++) {
+            if(tasks.get(i).getName().equals(name)) {
                 tasks.remove(i);
                 return;
             }
         }
-        System.out.println(name + "\" not found.");
-
     }
 
     // 2. Find all completed tasks
@@ -107,13 +105,20 @@ class TaskManager {
     // 7. Count tasks per category
     public Map<String, Integer> countTasksPerCategory() {
         // TODO: Implement counting logic
+        Map<String, Integer> categoryCount = new HashMap<>();
+
+        for(Task task : tasks) {
+            String category = task.getCategory();
+            categoryCount.put(category,categoryCount.getOrDefault(category,0) + 1);
+        }
+        return categoryCount;
         return new HashMap<>();
     }
 
     // 8. Mark a task as completed by name
     public void markTaskCompleted(String name) {
         // TODO: Implement completion logic
-    }
+
 
     // 9. Mark all tasks in a category as completed
     public void markCategoryCompleted(String category) {
