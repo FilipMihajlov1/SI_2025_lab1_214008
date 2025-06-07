@@ -1,4 +1,4 @@
-git log --oneline --graph --all
+$ git log --oneline --graph --all
 *   84ea446 (HEAD -> 8-mark-a-task-as-completed-by-name, origin/8-mark-a-task-as-completed-by-name) Mark a task as completed by name
 |\
 * | 361032c Mark a task as completed by name
@@ -18,4 +18,31 @@ ory issue commit
 |/|
 | * a793f2a commit
 | * 684dfbf Count tasks per category issue commit
-:
+| * f7169c2 Empty commit
+| *   324eb04 Count tasks per category
+| |\
+| | *   d45ec15 Count tasks per category
+| | |\
+| | | * 6f5ea95 Delete .idea directory
+| | | * 2030776 Delete SI2025Lab1Main.java
+| * | | 081d7ec Count tasks per category
+| |/ /
+| * / 28f93a3 Count tasks per category commit
+| |/
+| * 5c033c4 feature
+| * 3209828 Count tasks per category
+| | * 5b021b2 (origin/master) Merge pull request #10 from FilipMihajlov1/1-remove-a-task-by-name
+| |/|
+|/| |
+| | *   e860c45 (origin/1-remove-a-task-by-name, 1-remove-a-task-by-name) Merge branch '1-remove-a-task-by-name' of https://github.com/FilipMihajlov1/SI_2025_lab1_214008 into 1-remove-a-task-by-name
+| | |\
+| |_|/
+|/| |
+* | | 75de1a6 (master) Add starter code
+* | | bf62884 Initial commit
+ / /
+| * 115a218 Remove a task issue commit
+|/
+* f7582df Add starter code
+* caed7d4 Initial commit
+(END)
