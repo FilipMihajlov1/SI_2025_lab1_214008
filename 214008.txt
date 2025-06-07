@@ -1,0 +1,21 @@
+git log --oneline --graph --all
+*   84ea446 (HEAD -> 8-mark-a-task-as-completed-by-name, origin/8-mark-a-task-as-completed-by-name) Mark a task as completed by name
+|\
+* | 361032c Mark a task as completed by name
+* | cbe2270 Mark a task as completed by name
+* | a8e3895 (origin/main, origin/HEAD) Delete README.md
+* | 95cee38 Initial commit
+ /
+| *-.   7ac5c9b (refs/stash) WIP on 7-count-tasks-per-category: 1d627c6 count tasks per category issue commit
+| |\ \
+| | | * ca19eff untracked files on 7-count-tasks-per-category: 1d627c6 count tasks per category issue commit
+| | * dc1148e index on 7-count-tasks-per-category: 1d627c6 count tasks per categ
+ory issue commit
+| |/
+| *   1d627c6 (origin/7-count-tasks-per-category, 7-count-tasks-per-category) count tasks per category issue commit
+| |\
+| |/
+|/|
+| * a793f2a commit
+| * 684dfbf Count tasks per category issue commit
+:
